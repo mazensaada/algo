@@ -1,0 +1,28 @@
+
+ 
+    
+ VAR  line = "This website is awsom fefa.";
+INTEGER vowels = 0, word = 1, all-character=0;
+STRING:=line;ch=line.charAt(i);
+
+BEGIN
+ all-character=line.length()
+ 
+for (int i = 0; i < line.length(); ++i) {
+
+   
+  if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') THEN
+
+    ++vowels;
+ 
+  }
+  
+  else if (ch == ' ') THEN
+    ++word;
+  }
+write("Vowels: " + vowels);
+write("Number of character is : " +  all-character);
+write("Number of words is : " + word);
+
+END
+}
